@@ -53,8 +53,8 @@ module.exports = {
         {
           title: 'React Intro',
           children: [
-            'react/intro/react',
-            'react/intro/components',
+            'intro/react',
+            'intro/components',
           ]
         },
 

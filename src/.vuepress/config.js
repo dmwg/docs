@@ -19,6 +19,8 @@ module.exports = {
    */
   description: description,
 
+  base: '',
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *

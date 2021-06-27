@@ -20,7 +20,7 @@ jobs:
         node-version: 16.x
 
     - name: Build
-      run: npm run build
+      run: npx vuepress build src
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3

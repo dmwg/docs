@@ -1,0 +1,22 @@
+{
+  "name": "plugin-docs",
+  "version": "0.0.1",
+  "description": "DMWG Plugin Docs",
+  "main": "index.js",
+  "authors": {
+    "name": "Ducko",
+    "email": "goose@honk.camp"
+  },
+  "repository": "https://github.com/dmwg/plugin-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^3.0.0"
+  }
+}

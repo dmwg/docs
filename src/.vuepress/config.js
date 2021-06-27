@@ -19,7 +19,7 @@ module.exports = {
    */
   description: description,
 
-  base: '',
+  base: '/plugin-docs/',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`

@@ -51,8 +51,15 @@ module.exports = {
     sidebar: {
       '/react/': [
         {
+          title: 'React Intro',
+          children: [
+            'react/intro/react',
+            'react/intro/components',
+          ]
+        },
+
+        {
           title: 'Components',
-          //collapsable: false,
           children: [
             ...autoSidebar('react/components')
           ]

@@ -13,7 +13,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'DMWG Docs',
+  title: 'DMWG - Plugin Docs',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */

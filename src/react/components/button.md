@@ -99,6 +99,7 @@ React.createElement(Button, {
   className="my-button"
 
   disabled=false
+
   onClick=() => alert(1)
 >
   My Button

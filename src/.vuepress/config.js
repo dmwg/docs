@@ -47,6 +47,10 @@ module.exports = {
         text: 'Internals',
         link: '/internals/',
       },
+      {
+        text: 'Theming',
+        link: '/theming/'
+      }
     ],
     sidebar: {
       '/internals/': [
@@ -64,6 +68,15 @@ module.exports = {
           ]
         },
       ],
+
+      '/theming/': [
+        {
+          title: 'Mod Support',
+          children: [
+            ...autoSidebar('theming/mods')
+          ]
+        }
+      ]
     }
   },
 

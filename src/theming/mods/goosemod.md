@@ -1,0 +1,3 @@
+# GooseMod
+
+GooseMod is an exception to most mods, as it does not have it's own theme format. Instead, it uses "modules", not separating themes and plugins. However, you probably shouldn't make your own anyway, as GM's Store supports porting essentially all themes (ones supporting BD, PC, VZ). To get your theme added to GM's Store (it does not have local themes or plugins), you should [join their Discord](https://goosemod.com/discord) and ask there.

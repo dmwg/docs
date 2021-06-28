@@ -51,10 +51,9 @@ module.exports = {
     sidebar: {
       '/internals/': [
         {
-          title: 'Intro',
+          title: 'Tech',
           children: [
-            'intro/webpack',
-            'intro/react',
+            ...autoSidebar('internals/tech')
           ]
         },
 

@@ -5,7 +5,10 @@ BetterDiscord themes are made as a single CSS file (often referred to as a "them
 
 ## Meta Comment
 
-Metadata (information about the theme) is provided to BD via a comment block at the top of the CSS file. An example of this is:
+Metadata (information about the theme) is provided to BD via a comment block at the top of the CSS file.
+
+### Example
+
 ```css
 /**
   * @name Revert Rebrand
@@ -18,8 +21,6 @@ Metadata (information about the theme) is provided to BD via a comment block at 
   * @version 4.2
 */
 ```
-
-Some of these properties are optional, such as donate and invite.
 
 ### Properties
 

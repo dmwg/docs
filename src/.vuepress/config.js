@@ -71,6 +71,12 @@ module.exports = {
 
       '/theming/': [
         {
+          title: 'Variables',
+          children: [
+            ...autoSidebar('theming/vars')
+          ]
+        },
+        {
           title: 'Mod Support',
           children: [
             ...autoSidebar('theming/mods')

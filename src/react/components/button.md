@@ -15,7 +15,7 @@ The `Button` component is used throughout Discord for button inputs.
 You can get the component via it's display name, `DropdownButton`.
 <br>
 
-/mod_specific.webpack.displayname DropdownButton
+/mod_specific.webpack.displayname DropdownButton Button
 
 ## Usage
 <br>

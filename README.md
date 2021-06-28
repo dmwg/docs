@@ -1,2 +1,2 @@
-# Plugin  Docs
-Docs for plugins.
+# DMWG Docs
+DMWG Docs

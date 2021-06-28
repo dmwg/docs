@@ -1,6 +1,5 @@
 ---
 home: true
-tagline: DMWG Docs
-actionText: Start looking at docs →
-actionLink: /
+actionText: Browse Internals →
+actionLink: /internals/intro/webpack.html
 ---

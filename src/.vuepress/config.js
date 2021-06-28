@@ -44,12 +44,12 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'React',
-        link: '/react/',
+        text: 'Internals',
+        link: '/internals/',
       },
     ],
     sidebar: {
-      '/react/': [
+      '/internals/': [
         {
           title: 'Intro',
           children: [
@@ -61,7 +61,7 @@ module.exports = {
         {
           title: 'Components',
           children: [
-            ...autoSidebar('react/components')
+            ...autoSidebar('internals/components')
           ]
         },
       ],

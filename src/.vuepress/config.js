@@ -51,10 +51,10 @@ module.exports = {
     sidebar: {
       '/react/': [
         {
-          title: 'React Intro',
+          title: 'Intro',
           children: [
+            'intro/webpack',
             'intro/react',
-            'intro/components',
           ]
         },
 

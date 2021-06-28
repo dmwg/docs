@@ -1,0 +1,3 @@
+# Webpack
+
+[Webpack](https://webpack.js.org) is a one of the most common bundlers in the JavaScript ecosystem. It is used to bundle websites for performance (minifying and splitting code) and transpilation (to make modern code work in older browsers) via projects like [Babel](https://babeljs.io). An API exists in all mods to get Webpack modules from within Discord's code bundle. This is useful as most of their internal functions, React components, etc. are otherwise not useable.

@@ -19,60 +19,7 @@ Additionally, the component *does* support some features not present in normal D
 You can get the component via it's display name, `Markdown`.
 <br>
 
-<code-group>
-<code-block title="GooseMod" active>
-<code-group>
-<code-block title="ESM" active>
-```js
-import { findByDisplayName } from '@goosemod/webpack';
-const Markdown = findByDisplayName('Markdown');
-```
-</code-block>
-
-<code-block title="CJS">
-```js
-const { findByDisplayName } = require('@goosemod/webpack');
-const Markdown = findByDisplayName('Markdown');
-```
-</code-block>
-</code-group>
-</code-block>
-
-<code-block title="Powercord (v2)">
-```js
-const { getModuleByDisplayName } = require('powercord/webpack');
-const Markdown = getModuleByDisplayName('Markdown', false);
-```
-</code-block>
-
-<code-block title="BetterDiscord">
-```js
-// This uses BD's built-in API, you may be using a library which has it's own Webpack API
-const { findByDisplayName } = BdApi;
-const Markdown = findByDisplayName('Markdown');
-```
-</code-block>
-
-<code-block title="Vizality">
-<code-group>
-<code-block title="ESM" active>
-```js
-import { getModuleByDisplayName } from '@vizality/webpack';
-const Markdown = getModuleByDisplayName('Markdown');
-```
-</code-block>
-
-<code-block title="CJS">
-```js
-const { getModuleByDisplayName } = require('@vizality/webpack');
-const Markdown = getModuleByDisplayName('Markdown');
-```
-</code-block>
-</code-group>
-</code-block>
-
-</code-group>
-</code-block>
+/mod_specific.webpack.displayname Markdown
 
 ## Usage
 <br>

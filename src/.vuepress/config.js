@@ -1,6 +1,6 @@
 const { description } = require('../../package');
 
-const { join } = require('path');
+const { join, resolve } = require('path');
 const { readdirSync } = require('fs');
 
 const autoSidebar = (path) => {
@@ -76,5 +76,14 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
   ],
 
-  theme: 'yuu'
+  theme: 'yuu',
+
+  chainWebpack: config => {
+    config.module
+      .rule('md')
+      .test(/\.md$/)
+      .use(resolve(__dirname, './md_preproc/index'))
+        .loader(resolve(__dirname, './md_preproc/index'))
+        .end()
+  },
 }
